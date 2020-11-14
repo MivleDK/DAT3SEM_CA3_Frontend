@@ -6,12 +6,13 @@ import AllJokes from "./AllJokes";
 import AllScrape from "./AllScrape";
 import Login from "./Login";
 import { Switch, Route, NavLink, useHistory } from "react-router-dom";
+import Reflections from './Reflections';
 
 const Header = ({ isLoggedIn, loginMsg, isAdmin, loginName }) => {
   return (
     <>
       <Navbar bg="dark" variant="dark" id="header">
-        <Navbar.Brand href="#home">Hold E, Gruppe 8</Navbar.Brand>
+        <Navbar.Brand href="/">Hold E, Gruppe 8</Navbar.Brand>
         <Nav className="mr-auto">
           <NavLink className="nav-link" exact activeClassName="selected" href="/" to="/">
             Home
@@ -112,7 +113,7 @@ export default function App() {
 function Home() {
   return (
     <div className="pageContent">
-      <h2>Home</h2>
+      <Reflections />
     </div>
   );
 }

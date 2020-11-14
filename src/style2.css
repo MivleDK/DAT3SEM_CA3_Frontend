@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+.textBlock {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  margin: 0 auto;
+
+  line-height: 1.5;
+}
+
+.textBlock p {
+  font-family: "Merriweather", serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.center-text {
+  margin: 0 auto;
+  text-align: center;
+}
 ul.header {
   list-style-type: none;
   margin: 0;
