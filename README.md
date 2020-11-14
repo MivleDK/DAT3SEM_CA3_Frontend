@@ -6,7 +6,8 @@
 
 # Introduction
 
-This is part of a 3'rd semester, computer science course at CPH Business, Lyngby.
+This is part of a 3'rd semester, computer science course at CPH Business, Lyngby.  
+A running example can be found on surge here [dat3semca3.surge.sh](dat3semca3.surge.sh)
 
 <br>
 
